@@ -8,7 +8,7 @@ until
         case $input in
         1)
             echo "..."
-            bash <(curl -L https://github.com/SHIKEAIXY/h/raw/main/xyyz.sh) | bash
+            bash <(curl -L https://mirror.ghproxy.com/raw.githubusercontent.com/SHIKEAIXY/h/main/xyyz.sh) | bash
             ;;
         2)
             echo "请输入选择（1-2）"
